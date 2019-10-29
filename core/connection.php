@@ -1,6 +1,6 @@
 <?php
 
-$dbServerName = 'localhost';
+$dbServerName = 'postgres://rnsofsnmugjarl:d16c8f6f4aacf79ef1120973745a64ac244c70f9cca4cfb58c521ad8b1bb89f3@ec2-184-73-209-230.compute-1.amazonaws.com:5432/dalilf7d8kev88';
 $dbUserName = 'root';
 $dbPassword = '';
 $dbName = 'ecommerce_miguel\'s_store';
