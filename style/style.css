@@ -1,0 +1,108 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: rgb(194, 241, 228);
+    padding: 50px;
+
+}
+
+/* NAVBAR */
+
+.navbar>.container,
+.navbar>.container-fluid {
+    justify-content: left;
+}
+
+/* HEADER */
+
+.container-fluid {
+    margin-top: 30px;
+    display: flex;
+}
+
+.container {
+    margin-left: 0;
+}
+
+
+.first-item {
+    margin-left: 20px;
+}
+
+#headerWrapper {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    background-image: url(../Header.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-position-y: 50px;
+    background-attachment: fixed;
+
+}
+
+/* FOOTER */
+
+#footer-main {
+    margin-top: 50px;
+}
+
+/* MODAL */
+
+.modal-dialog {
+    max-width: 700px;
+}
+
+
+/* BRANDS */
+
+.table-auto {
+    width: auto;
+    margin: 20px auto 0;
+}
+
+.form-centered {
+    width: 250px;
+    margin: auto;
+}
+
+#brand {
+    margin: 0 5px;
+}
+
+.btn {
+    display: inline;
+}
+
+.saved-image img {
+    width: 250px;
+    height: auto;
+}
+
+/* login */
+
+#login-form {
+    width: 50%;
+    height: 60%;
+    border: 2px solid #000;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    margin: 8% auto;
+    padding: 15px;
+    background-color: #fff;
+}
+
+#cart-widget,
+#recent-widget {
+    font-size: 12px;
+}
+
+.price-range {
+    width: 55px;
+}
